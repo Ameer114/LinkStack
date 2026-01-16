@@ -22,19 +22,19 @@ const Navbar = () => {
 
           {/* Desktop Nav Links */}
           <ul className='hidden md:flex gap-6 text-gray-600 font-medium'>
-            <Link href="#features">
+            <Link href="./#features">
               <li className='hover:text-black cursor-pointer transition'>Features</li>
             </Link>
 
-            <Link href="#how">
+            <Link href="./#how">
               <li className='hover:text-black cursor-pointer transition'>How It Works</li>
             </Link>
 
-            <Link href="#pricing">
+            <Link href="./#pricing">
               <li className='hover:text-black cursor-pointer transition'>Pricing</li>
             </Link>
 
-            <Link href="#contact">
+            <Link href="./#contact">
               <li className='hover:text-black cursor-pointer transition'>Contact</li>
             </Link>
           </ul>
@@ -65,19 +65,19 @@ const Navbar = () => {
       {open && showNav && (
         <div className="fixed top-24 left-[10vw] w-[80vw] bg-white rounded-xl shadow-lg py-6 flex flex-col items-center gap-4 z-40 md:hidden">
 
-          <Link onClick={() => setOpen(false)} href="#features">
+          <Link onClick={() => setOpen(false)} href="./#features">
             <span className="font-medium text-gray-700">Features</span>
           </Link>
 
-          <Link onClick={() => setOpen(false)} href="#how">
+          <Link onClick={() => setOpen(false)} href="./#how">
             <span className="font-medium text-gray-700">How It Works</span>
           </Link>
 
-          <Link onClick={() => setOpen(false)} href="#pricing">
+          <Link onClick={() => setOpen(false)} href="./#pricing">
             <span className="font-medium text-gray-700">Pricing</span>
           </Link>
 
-          <Link onClick={() => setOpen(false)} href="#contact">
+          <Link onClick={() => setOpen(false)} href="./#contact">
             <span className="font-medium text-gray-700">Contact</span>
           </Link>
 
