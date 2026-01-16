@@ -5,7 +5,7 @@ import ShareButton from "@/components/ShareButton";
 
 
 const page = async ({ params }) => {
-  const handle = (await params).handle
+ const handle = decodeURIComponent((await params).handle);
   const client = await clientPromise;
   const db = client.db("linkstack")
   const collection = db.collection("links")
