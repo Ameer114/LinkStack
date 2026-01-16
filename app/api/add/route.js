@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+
+
 import clientPromise from "@/lib/mongodb";
 import cloudinary from "@/lib/cloudinary";
 import { Buffer } from "buffer";
