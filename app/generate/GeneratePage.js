@@ -23,7 +23,7 @@ const page = () => {
     formData.append("pic", pic);
     formData.append("links", JSON.stringify(link));
 
-    const r = await fetch("http://localhost:3000/api/add", {
+    const r = await fetch("/api/add", {
       method: "POST",
       body: formData,
     });
