@@ -44,12 +44,12 @@ export default function Home() {
             value={text}
             placeholder="Enter your handle"
             onChange={(e) => settext(e.target.value)}
-            className="px-4 py-3 rounded-lg outline-none border border-gray-400 w-64 focus:ring-2 focus:ring-indigo-400"
+            className="md:px-4 md:py-3 px-1 py-1 rounded-lg outline-none border border-gray-400 md:w-64 focus:ring-2 focus:ring-indigo-400"
           />
 
           <button
             onClick={() => createStack()}
-            className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition shadow-md"
+            className="md:px-6 md:py-3 md:text-lg px-2 py-1 text-[12px] rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition shadow-md"
           >
             Claim Your LinkStack
           </button>
